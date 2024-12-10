@@ -1,3 +1,22 @@
+// 1
+function logItems(array) {
+  for (let i = 0; i < array.length; i++) {
+    console.log(`${i + 1} - ${array[i]}`);
+  }
+}
+
+// 1
+
+// 2
+function calculateEngravingPrice(message, pricePerWord) {
+  const words = message.split(' ');
+
+  const totalPrice = words.length * pricePerWord;
+
+  return totalPrice;
+}
+
+// 2
 
 // 3
 function findLongestWord(string) {
@@ -17,6 +36,16 @@ function findLongestWord(string) {
   console.log(findLongestWord('JavaScript is awesome')); // JavaScript
 // 3
 
+// 4
+function formatString(string) {
+  if (string.length <= 40) {
+    return string;
+  }
+  
+  return string.slice(0, 40) + '...';
+}
+// 4
+
 // 5
 function checkForSpam(message) {
     const lowerCaseMessage = message.toLowerCase();
@@ -27,6 +56,10 @@ function checkForSpam(message) {
   console.log(checkForSpam('Important SPAM notification'));
   console.log(checkForSpam('Hello, how are you?'));
 // 5  
+
+// 6
+
+// 6
 
 // 7
 function addLogin(logins, login) {
