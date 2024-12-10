@@ -32,8 +32,8 @@ function findLongestWord(string) {
     return longestWord;
   }
   
-  console.log(findLongestWord('The quick brown fox jumps over the lazy dog')); // jumps
-  console.log(findLongestWord('JavaScript is awesome')); // JavaScript
+  console.log(findLongestWord('The quick brown fox jumps over the lazy dog'));
+  console.log(findLongestWord('JavaScript is awesome'));
 // 3
 
 // 4
